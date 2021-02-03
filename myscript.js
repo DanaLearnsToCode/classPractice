@@ -12,8 +12,8 @@ $(document).ready(function() {
           var number = event.target.id.slice(-1);
     $("#a"+ number).slideToggle("slow");
   });
-	$("#quiz").click(function(event){
-          var number = event.target.id.slice(-1);
+	$("#a+ number").click(function(){
+          
     $("#img"+ number).fadeToggle("slow");
   });
 });
