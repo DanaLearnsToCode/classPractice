@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+        $("#img").hide();
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
